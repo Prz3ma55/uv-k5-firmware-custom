@@ -5,7 +5,7 @@
 
 # ---- STOCK QUANSHENG FEATURES ----
 ENABLE_UART                   ?= 1
-ENABLE_AIRCOPY                ?= 1
+ENABLE_AIRCOPY                ?= 0
 ENABLE_FMRADIO                ?= 0
 ENABLE_NOAA                   ?= 0
 ENABLE_VOICE                  ?= 0
@@ -20,29 +20,29 @@ ENABLE_FLASHLIGHT             ?= 1
 ENABLE_BIG_FREQ               ?= 1
 ENABLE_SMALL_BOLD             ?= 1
 ENABLE_CUSTOM_MENU_LAYOUT     ?= 1
-ENABLE_KEEP_MEM_NAME          ?= 0
+ENABLE_KEEP_MEM_NAME          ?= 1
 ENABLE_WIDE_RX                ?= 1
-ENABLE_TX_WHEN_AM             ?= 0
+ENABLE_TX_WHEN_AM             ?= 1
 ENABLE_F_CAL_MENU             ?= 1
-ENABLE_CTCSS_TAIL_PHASE_SHIFT ?= 0
+ENABLE_CTCSS_TAIL_PHASE_SHIFT ?= 1
 ENABLE_BOOT_BEEPS             ?= 1
 ENABLE_SHOW_CHARGE_LEVEL      ?= 1
-ENABLE_REVERSE_BAT_SYMBOL     ?= 0
+ENABLE_REVERSE_BAT_SYMBOL     ?= 1
 ENABLE_NO_CODE_SCAN_TIMEOUT   ?= 1
 ENABLE_SQUELCH_MORE_SENSITIVE ?= 1
 ENABLE_FASTER_CHANNEL_SCAN    ?= 1
 ENABLE_RSSI_BAR               ?= 1
 ENABLE_AUDIO_BAR              ?= 1
-ENABLE_COPY_CHAN_TO_VFO       ?= 0
+ENABLE_COPY_CHAN_TO_VFO       ?= 1
 ENABLE_SPECTRUM               ?= 1
-ENABLE_REDUCE_LOW_MID_TX_POWER?= 0
-ENABLE_BYP_RAW_DEMODULATORS   ?= 0
-ENABLE_BLMIN_TMP_OFF          ?= 0
-ENABLE_SCAN_RANGES            ?= 0
+ENABLE_REDUCE_LOW_MID_TX_POWER?= 1
+ENABLE_BYP_RAW_DEMODULATORS   ?= 1
+ENABLE_BLMIN_TMP_OFF          ?= 1
+ENABLE_SCAN_RANGES            ?= 1
 
 # ---- DEBUGGING ----
-ENABLE_AGC_SHOW_DATA          ?= 0
-ENABLE_UART_RW_BK_REGS        ?= 0
+ENABLE_AGC_SHOW_DATA          ?= 1
+ENABLE_UART_RW_BK_REGS        ?= 1
 
 # ---- COMPILER/LINKER OPTIONS ----
 ENABLE_CLANG                  ?= 0
@@ -54,7 +54,7 @@ ENABLE_LTO                    ?= 1
 
 # --- joaquim.org
 ENABLE_MESSENGER              			?= 1
-ENABLE_MESSENGER_DELIVERY_NOTIFICATION	?= 1
+ENABLE_MESSENGER_DELIVERY_NOTIFICATION	?= 0
 ENABLE_MESSENGER_NOTIFICATION			?= 1
 ENABLE_MESSENGER_UART					?= 1
 
@@ -66,8 +66,8 @@ ENABLE_PMR_MODE               ?= 0
 ENABLE_SCREEN_DUMP			  ?= 0
 
 #------------------------------------------------------------------------------
-AUTHOR_STRING ?= JOAQUIM
-VERSION_STRING ?= V0.3.5
+AUTHOR_STRING ?= Prz3m455
+VERSION_STRING ?= Joaq-V0.3.5+
 PROJECT_NAME := cfw_joaquimorg_oefw_V0.3.5_Prz3m455_more_than_little_edit
 
 BUILD := _build
