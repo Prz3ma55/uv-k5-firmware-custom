@@ -19,14 +19,14 @@ ENABLE_FLASHLIGHT             ?= 1
 # ---- CUSTOM MODS ----
 ENABLE_BIG_FREQ               ?= 1
 ENABLE_SMALL_BOLD             ?= 1
-ENABLE_CUSTOM_MENU_LAYOUT     ?= 0
+ENABLE_CUSTOM_MENU_LAYOUT     ?= 1
 ENABLE_KEEP_MEM_NAME          ?= 0
 ENABLE_WIDE_RX                ?= 1
 ENABLE_TX_WHEN_AM             ?= 0
-ENABLE_F_CAL_MENU             ?= 0
+ENABLE_F_CAL_MENU             ?= 1
 ENABLE_CTCSS_TAIL_PHASE_SHIFT ?= 0
-ENABLE_BOOT_BEEPS             ?= 0
-ENABLE_SHOW_CHARGE_LEVEL      ?= 0
+ENABLE_BOOT_BEEPS             ?= 1
+ENABLE_SHOW_CHARGE_LEVEL      ?= 1
 ENABLE_REVERSE_BAT_SYMBOL     ?= 0
 ENABLE_NO_CODE_SCAN_TIMEOUT   ?= 1
 ENABLE_SQUELCH_MORE_SENSITIVE ?= 1
@@ -46,7 +46,7 @@ ENABLE_UART_RW_BK_REGS        ?= 0
 
 # ---- COMPILER/LINKER OPTIONS ----
 ENABLE_CLANG                  ?= 0
-ENABLE_SWD                    ?= 0
+ENABLE_SWD                    ?= 1
 ENABLE_OVERLAY                ?= 0
 ENABLE_LTO                    ?= 1
 
@@ -54,7 +54,7 @@ ENABLE_LTO                    ?= 1
 
 # --- joaquim.org
 ENABLE_MESSENGER              			?= 1
-ENABLE_MESSENGER_DELIVERY_NOTIFICATION	?= 0
+ENABLE_MESSENGER_DELIVERY_NOTIFICATION	?= 1
 ENABLE_MESSENGER_NOTIFICATION			?= 1
 ENABLE_MESSENGER_UART					?= 1
 
@@ -68,7 +68,7 @@ ENABLE_SCREEN_DUMP			  ?= 0
 #------------------------------------------------------------------------------
 AUTHOR_STRING ?= JOAQUIM
 VERSION_STRING ?= V0.3.5
-PROJECT_NAME := cfw_joaquimorg_oefw_V0.3.5_Prz3m455_little_edit
+PROJECT_NAME := cfw_joaquimorg_oefw_V0.3.5_Prz3m455_more_than_little_edit
 
 BUILD := _build
 BIN := firmware
