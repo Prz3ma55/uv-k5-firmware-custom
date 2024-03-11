@@ -3,18 +3,18 @@
 # 0 = disable
 # 1 = enable
 
-# ---- STOCK QUANSHENG FERATURES ----
+# ---- STOCK QUANSHENG FEATURES ----
 ENABLE_UART                   ?= 1
-ENABLE_AIRCOPY                ?= 0
+ENABLE_AIRCOPY                ?= 1
 ENABLE_FMRADIO                ?= 0
 ENABLE_NOAA                   ?= 0
 ENABLE_VOICE                  ?= 0
 ENABLE_VOX                    ?= 0
-ENABLE_ALARM                  ?= 0
+ENABLE_ALARM                  ?= 1
 ENABLE_TX1750                 ?= 0
 ENABLE_PWRON_PASSWORD         ?= 0
-ENABLE_DTMF_CALLING           ?= 0
-ENABLE_FLASHLIGHT             ?= 0
+ENABLE_DTMF_CALLING           ?= 1
+ENABLE_FLASHLIGHT             ?= 1
 
 # ---- CUSTOM MODS ----
 ENABLE_BIG_FREQ               ?= 1
