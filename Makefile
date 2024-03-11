@@ -68,7 +68,7 @@ ENABLE_SCREEN_DUMP			  ?= 0
 #------------------------------------------------------------------------------
 AUTHOR_STRING ?= JOAQUIM
 VERSION_STRING ?= V0.3.5
-PROJECT_NAME := cfw_joaquimorg_oefw_V0.3.5
+PROJECT_NAME := cfw_joaquimorg_oefw_V0.3.5_Prz3m455_little_edit
 
 BUILD := _build
 BIN := firmware
